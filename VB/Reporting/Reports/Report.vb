@@ -1,11 +1,10 @@
-Imports Microsoft.VisualBasic
-Imports System
-Imports DevExpress.XtraReports.UI
+﻿Imports DevExpress.XtraReports.UI
 Imports Reporting
 
 Namespace ReportService.Reports
 	Public Class Report
 		Inherits XtraReport
+
 		Private detailBand1 As DetailBand
 		Private nwind1 As Nwind
 		Private xrLabel1 As XRLabel
@@ -25,7 +24,7 @@ Namespace ReportService.Reports
 		Private bottomMarginBand1 As BottomMarginBand
 		Private xrPictureBox1 As XRPictureBox
 		Private xrLabel3 As XRLabel
-        Private categoriesTableAdapter As NwindTableAdapters.CategoriesTableAdapter
+		Private categoriesTableAdapter As Reporting.NwindTableAdapters.CategoriesTableAdapter
 
 		Public Sub New()
 			InitializeComponent()
@@ -40,7 +39,7 @@ Namespace ReportService.Reports
 			Me.xrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.xrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.nwind1 = New Nwind()
-            Me.categoriesTableAdapter = New NwindTableAdapters.CategoriesTableAdapter()
+			Me.categoriesTableAdapter = New Reporting.NwindTableAdapters.CategoriesTableAdapter()
 			Me.Title = New DevExpress.XtraReports.UI.XRControlStyle()
 			Me.FieldCaption = New DevExpress.XtraReports.UI.XRControlStyle()
 			Me.PageInfo = New DevExpress.XtraReports.UI.XRControlStyle()
@@ -52,8 +51,8 @@ Namespace ReportService.Reports
 			Me.xrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.topMarginBand1 = New DevExpress.XtraReports.UI.TopMarginBand()
 			Me.bottomMarginBand1 = New DevExpress.XtraReports.UI.BottomMarginBand()
-			CType(Me.nwind1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.nwind1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' detailBand1
 			' 
@@ -232,8 +231,8 @@ Namespace ReportService.Reports
 			Me.DataSource = Me.nwind1
 			Me.StyleSheet.AddRange(New DevExpress.XtraReports.UI.XRControlStyle() { Me.Title, Me.FieldCaption, Me.PageInfo, Me.DataField})
 			Me.Version = "12.1"
-			CType(Me.nwind1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.nwind1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 		End Sub
 	End Class
 End Namespace
