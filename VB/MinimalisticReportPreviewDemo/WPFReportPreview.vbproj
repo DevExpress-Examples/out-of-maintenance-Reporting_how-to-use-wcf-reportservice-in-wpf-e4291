@@ -39,70 +39,85 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Charts.v13.2.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Charts.v14.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Printing.v13.2.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Printing.v14.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Data.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Data.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Data.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Utils.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Utils.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Mvvm.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Xpf.Mvvm.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Mvvm.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Xpf.Core.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Xpf.Core.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Xpf.Printing.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Xpf.Printing.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Xpf.Printing.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraCharts.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraPivotGrid.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraPivotGrid.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraPivotGrid.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.PivotGrid.v13.2.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.PivotGrid.v14.1.Core.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v13.2.Extensions, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraReports.v13.2.Extensions.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.DataAccess.v14.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.DataAccess.v14.1.UI, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Sparkline.v13.2.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.DataAccess.v14.1.UI.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraReports.v13.2.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Xpo.v14.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1.Extensions, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v14.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Sparkline.v14.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v14.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

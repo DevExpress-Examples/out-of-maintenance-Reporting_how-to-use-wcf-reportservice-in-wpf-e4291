@@ -14,7 +14,7 @@ namespace MinimalisticReportPreviewDemo {
         }
 
         private void ShowPreview(object sender, RoutedEventArgs e) {
-            ReportPreviewModel model = new ReportPreviewModel();
+            ReportServicePreviewModel model = new ReportServicePreviewModel();
             model.ServiceUri = @"http://localhost:50786/ReportService1.svc";
             model.ReportName = "ReportService.Reports.Report, Reporting";
 
