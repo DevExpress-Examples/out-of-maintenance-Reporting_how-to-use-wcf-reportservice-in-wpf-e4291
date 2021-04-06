@@ -1,4 +1,4 @@
-' Developer Express Code Central Example:
+﻿' Developer Express Code Central Example:
 ' How to use XtraReports in a WPF application
 ' 
 ' This example demonstrates how you can add an XtraReport to a WPF application,
@@ -12,8 +12,6 @@
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E2222
 
-
-Imports Microsoft.VisualBasic
 Imports System.Reflection
 Imports System.Resources
 Imports System.Runtime.CompilerServices
@@ -28,7 +26,7 @@ Imports System.Windows
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("MinimalisticReportPreviewDemo")>
-<Assembly: AssemblyCopyright("Copyright �  2010")>
+<Assembly: AssemblyCopyright("Copyright ©  2010")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
@@ -47,10 +45,6 @@ Imports System.Windows
 '[assembly: NeutralResourcesLanguage("en-US", UltimateResourceFallbackLocation.Satellite)]
 
 
-	'(used if a resource is not found in the page, 
-	' or application resource dictionaries)
-	'(used if a resource is not found in the page, 
-	' app, or any theme specific resource dictionaries)
 <Assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)>
 
 
