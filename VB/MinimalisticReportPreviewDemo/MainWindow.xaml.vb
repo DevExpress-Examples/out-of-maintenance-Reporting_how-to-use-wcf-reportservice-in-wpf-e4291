@@ -1,8 +1,7 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows
+Imports DevExpress.ReportServer.Printing
 Imports DevExpress.Xpf.Core
-Imports DevExpress.Xpf.Themes
 Imports DevExpress.Xpf.Printing
 ' ...
 
@@ -12,17 +11,19 @@ Namespace MinimalisticReportPreviewDemo
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
 
 		Private Sub ShowPreview(ByVal sender As Object, ByVal e As RoutedEventArgs)
-			Dim model As New ReportPreviewModel()
-			model.ServiceUri = "http://localhost:50786/ReportService1.svc"
-            model.ReportName = "ReportService.Reports.Report, Reporting"
+			Dim remoteSource As New RemoteDocumentSource()
+			remoteSource.ServiceUri = "http://localhost:50786/ReportService1.svc"
+			remoteSource.ReportName = "ReportService.Reports.Report, Reporting"
 
-			Dim window As New DocumentPreviewWindow() With {.Model = model}
-			model.CreateDocument()
+			Dim window As New DocumentPreviewWindow()
+			window.PreviewControl.DocumentSource = remoteSource
+			remoteSource.CreateDocument()
 
 			window.ShowDialog()
 		End Sub
