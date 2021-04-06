@@ -1,4 +1,4 @@
-' Developer Express Code Central Example:
+﻿' Developer Express Code Central Example:
 ' How to use a WPF Report Designer in a client-server mode
 ' 
 ' This example illustrates how you can use the WPF Report Designer in a
@@ -12,8 +12,6 @@
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E4018
 
-
-Imports Microsoft.VisualBasic
 Imports System.Reflection
 Imports System.Runtime.CompilerServices
 Imports System.Runtime.InteropServices
@@ -27,7 +25,7 @@ Imports System.Windows
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("WpfReportDesigerSample")>
-<Assembly: AssemblyCopyright("Copyright �  2011")>
+<Assembly: AssemblyCopyright("Copyright ©  2011")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
@@ -38,10 +36,6 @@ Imports System.Windows
 
 ' The following GUID is for the ID of the typelib if this project is exposed to COM
 '[assembly: Guid("bb5fee23-bc06-4095-91f1-9beffc7cf7c3")]
-	'(used if a resource is not found in the page, 
-	' or application resource dictionaries)
-	'(used if a resource is not found in the page, 
-	' app, or any theme specific resource dictionaries)
 <Assembly: ThemeInfo(ResourceDictionaryLocation.None, ResourceDictionaryLocation.SourceAssembly)>
 
 ' Version information for an assembly consists of the following four values:
