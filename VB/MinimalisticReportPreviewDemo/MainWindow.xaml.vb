@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.Windows
 Imports DevExpress.ReportServer.Printing
 Imports DevExpress.Xpf.Core

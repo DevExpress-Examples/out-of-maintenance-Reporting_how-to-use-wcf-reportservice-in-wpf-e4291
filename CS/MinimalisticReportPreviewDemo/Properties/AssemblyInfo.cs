@@ -1,4 +1,4 @@
-﻿// Developer Express Code Central Example:
+// Developer Express Code Central Example:
 // How to use XtraReports in a WPF application
 // 
 // This example demonstrates how you can add an XtraReport to a WPF application,

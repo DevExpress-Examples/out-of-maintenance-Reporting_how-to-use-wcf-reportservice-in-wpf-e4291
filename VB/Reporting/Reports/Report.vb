@@ -1,4 +1,4 @@
-﻿Imports DevExpress.XtraReports.UI
+Imports DevExpress.XtraReports.UI
 Imports Reporting
 
 Namespace ReportService.Reports
@@ -24,7 +24,7 @@ Namespace ReportService.Reports
 		Private bottomMarginBand1 As BottomMarginBand
 		Private xrPictureBox1 As XRPictureBox
 		Private xrLabel3 As XRLabel
-		Private categoriesTableAdapter As Reporting.NwindTableAdapters.CategoriesTableAdapter
+		Private categoriesTableAdapter As NwindTableAdapters.CategoriesTableAdapter
 
 		Public Sub New()
 			InitializeComponent()
@@ -39,7 +39,7 @@ Namespace ReportService.Reports
 			Me.xrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.xrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
 			Me.nwind1 = New Nwind()
-			Me.categoriesTableAdapter = New Reporting.NwindTableAdapters.CategoriesTableAdapter()
+			Me.categoriesTableAdapter = New NwindTableAdapters.CategoriesTableAdapter()
 			Me.Title = New DevExpress.XtraReports.UI.XRControlStyle()
 			Me.FieldCaption = New DevExpress.XtraReports.UI.XRControlStyle()
 			Me.PageInfo = New DevExpress.XtraReports.UI.XRControlStyle()

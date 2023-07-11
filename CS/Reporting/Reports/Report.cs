@@ -1,4 +1,4 @@
-﻿using DevExpress.XtraReports.UI;
+using DevExpress.XtraReports.UI;
 using Reporting;
 
 namespace ReportService.Reports {

@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to use a WPF Report Designer in a client-server mode
 ' 
 ' This example illustrates how you can use the WPF Report Designer in a
